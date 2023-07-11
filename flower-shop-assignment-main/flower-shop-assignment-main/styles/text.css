@@ -1,8 +1,3 @@
-* {
-      margin: 0px;
-      padding: 0px;
-}
-
 /* common shared styles */
 body {
       font-family: Lato;
@@ -11,22 +6,64 @@ body {
 /* header session styles */
 .header {
       background-color: rgba(229, 84, 115, 0.10);
+      /* height: 800px; */
 }
 
+
+/* bonus section styles */
+.feature-title {
+      color: #272727;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 800;
+}
+.featurte-description{
+      text-align: center;
+      margin-top: 0px;
+}
+.images-container{
+      display: flex;
+     gap: 5px;
+}
+.images-container li{
+      list-style: none;
+      text-align: center;
+      margin-left: 200px;
+    
+}
+.images{
+      background-color: antiquewhite;
+      border-top-left-radius: 120px ;
+      border-top-right-radius: 120px;
+
+}
+.parents{
+      text-align: center;
+}
+.form-section{
+      width: 30%;
+      margin: 0 auto;
+}
 /* bannnar styles */
+
 .bannar-container {
       display: flex;
       align-items: center;
-      padding: 50px 200px 0px 180px;
       gap: 100px;
-      width: auto;
+      justify-content: space-around;
+      padding-left: 150px;
+
+
+}
+
+.title-contain {
+      padding-bottom: 20px;
 }
 
 .bannae-title {
       color: #272727;
       font-size: 45px;
       font-weight: 1200;
-
 }
 
 .bannar-description {
@@ -47,7 +84,10 @@ body {
 }
 
 .flower-pic {
+      height: 400px;
       width: 400px;
+      padding: 50px 150px 0px 200px;
+
 }
 
 /*  second section styles */
@@ -132,7 +172,9 @@ img {
 }
 
 /* fourth styles */
-.fourth-part-container {}
+.fourth-part-container {
+      background-image: url('../Flower-Asset/Rectangle\ 9.png');
+}
 
 .fourth-title {
       color: #272727;
@@ -164,11 +206,15 @@ img {
 
 /* footer container */
 .footer-container {
-      background-color:black;
+      background-color: black;
       margin-top: 100px;
       height: 80px;
       text-align: center;
       padding: 120px 200px 200px 200px;
+}
+
+.footer-title {
+      color: white;
 }
 
 .footer-container span {
