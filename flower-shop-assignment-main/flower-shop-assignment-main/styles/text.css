@@ -14,36 +14,42 @@ body {
 .feature-title {
       color: #272727;
       text-align: center;
-      font-size: 40px;
+      font-size: 20px;
       font-weight: 800;
+      margin-top: 100px;
 }
-.featurte-description{
+
+.featurte-description {
+      color: rgba(39, 39, 39, 0.60);
       text-align: center;
-      margin-top: 0px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
 }
-.images-container{
+
+.images-container {
       display: flex;
-    
+
 }
-.images-container li{
+
+.images-container li {
       list-style: none;
       text-align: center;
       margin-left: 200px;
-    
+
 }
-.images{
+
+.images {
       background-color: antiquewhite;
-      border-top-left-radius: 120px ;
+      border-top-left-radius: 120px;
       border-top-right-radius: 120px;
 
 }
-.parents{
+
+.parents {
       text-align: center;
 }
-.form-section{
-      width: 30%;
-      margin: 0 auto;
-}
+
 /* bannnar styles */
 
 .bannar-container {
@@ -60,7 +66,7 @@ body {
       padding-bottom: 20px;
 }
 
-.bannae-title {
+.bannar-title {
       color: #272727;
       font-size: 45px;
       font-weight: 1200;
@@ -173,7 +179,7 @@ img {
 
 /* fourth styles */
 .fourth-part-container {
-      background-image: url('../Flower-Asset/Rectangle\ 9.png');
+      background-image: url('../flower-asset/Rectangle\ 9.png')
 }
 
 .fourth-title {
@@ -191,18 +197,45 @@ img {
       line-height: 30px;
 }
 
-.action {
+.action input {
       border-radius: 8px;
       background: #FFF;
       border: 0px;
+      width: 30%;
+      margin: 0 auto;
+      padding: 20px;
+
+}
+input [type="email"]{
+      margin-left: 10px;
+      color: #E55473;
 }
 
+input[type="submit"] {
+      
+      background: #E55473;
+      padding-bottom: 10px;
+}
+/* Extra part design */
+.description{
+      justify-content: space-around;
+      margin-top: 50px;
+}
+.details-flower{
+      text-align: center;
+      margin-top: 100px;
+      font-size: xx-large;
+}
+.bottom{
+      background-color: lightgray;
 
-
-
-
-
-
+}
+.para{
+      background-color:#E55473;
+}
+.description img{
+      width: 200px;
+}
 
 /* footer container */
 .footer-container {
